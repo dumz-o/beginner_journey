@@ -1,56 +1,39 @@
-# About Me
-I am an aspiring Electrical Engineer using Python to build practical engineering utilities, circuit calculators, and physics models. This repository serves as a live log of my programming foundations and technical growth.
+# Electrical Engineering Foundation: Python Journey
 
-# Project Portfolio   
-    1. Multivariable Resistor Circuit Calculator (resistor_calc.py)
-        Functionality: Computes total resistance for 2, 3, or 4 resistors in both series and parallel configurations.
-    
-        
-        Core Concepts: Advanced nested conditional trees, multiple distinct exception handling zones, and explicit algebraic formulas.
-        
-        Engineering Impact: Features robust input validation across multiple layers. It isolates numerical string conversion errors to keep the application running smoothly without system crashes.
-    
-    
-    2. Ohm's Law Calculator (ohms_law.py)
-        Functionality: An engineering-focused script that calculates an unknown electrical property (Voltage, Current, or Resistance) based on two known user-provided values.
-    
-        Core Concepts: Control flow routing, user input capture, and float conversions for physical measurements.
-    
-        Engineering Impact: Automatically routes data through the standard V = I * R equations and handles incorrect user entries with a fallback safety message.
+I am an aspiring Electrical Engineer using Python to build practical engineering utilities, circuit calculators, and physics models. This repository serves as a live log of my programming foundations and technical growth, specifically targeting future applications in power electronics and renewable systems.
 
-    
-    3. Temperature Scale Converter (temp_converter.py)
-        Functionality: Converts temperatures dynamically between Celsius, Fahrenheit, and Kelvin based on user selection.
-        
-        Core Concepts: Complex boolean evaluations, algebraic sequence manipulation, and error catching.
-    
-        Engineering Impact: Demonstrates early experimentation with multi-variable matching logic to route specific physics formulas based on matching units.
+---
 
-    
-    4. Century Milestone Tracker (age_to_100.py)
-        Functionality: Takes a user's name and age, calculates exactly how many years remain until they turn 100, and outputs a custom message based on their current life stage.
-    
-        Core Concepts: String concatenation, logical boundary constraints, and descending comparison intervals.
-    
-        Engineering Impact: Implements an inverted string-check mechanism by trying to convert names into floats to detect and flag numerical typing errors in text fields.
+## 🚀 Foundational Utilities Portfolio
 
-    
-    5. Academic Score Grader (score_grader.py)
-        Functionality: Adaption of a core curriculum exercise that requests a decimal score between 0.0 and 1.0 and assigns an academic letter grade (A, B, C, D, or F).
-    
-        Core Concepts: Nested conditions, interval value mapping, and structured boundary verification.
-    
-        Engineering Impact: Uses strict range validation (0.0 <= score <= 1.0) to catch logical data errors before they can pass through the grading system.
-    
-    
-    6. Product or Sum Threshold Evaluator (product_or_sum.py)
-        Functionality: Takes two integers and evaluates their product. If the product exceeds 1000, it returns their sum; otherwise, it outputs the product.
-    
-        Core Concepts: Basic data type casting, arithmetic evaluation, and simple binary branching.Engineering Impact: Marks the concrete starting point of this engineering portfolio, verifying the fundamental mechanics of variables and conditions.
-    
+### 1. Multivariable Resistor Circuit Calculator (`resistor_calc.py`)
+* **Function:** Computes total resistance for 2, 3, or 4 resistors in both series and parallel configurations.
+* **Engineering Focus:** Implements strict user input validation and error handling (`try`/`except` blocks) to prevent system crashes from incorrect data entry, ensuring reliable physical calculations.
 
+### 2. Ohm's Law Calculator (`ohms_law.py`)
+* **Function:** Calculates an unknown electrical property (Voltage, Current, or Resistance) dynamically based on two known user-provided variables.
+* **Engineering Focus:** Focuses on clean control flow routing, mapping standard $V = I \times R$ equations to programmatic logic.
 
-        Core Technical Skills 
-            DemonstratedDefensive Programming: Extensive implementation of try/except blocks to handle unpredictable user inputs without crashing the program.
-            Data Integrity: Converting raw default string inputs into matching float or int formats to perform clean arithmetic calculations.
-            Algorithmic Routing: Constructing readable control flows to solve practical math, physics, and electrical engineering problems
+### 3. Temperature Scale Converter (`temp_converter.py`)
+* **Function:** Dynamically converts values between Celsius, Fahrenheit, and Kelvin based on user selection.
+* **Engineering Focus:** Handles data type casting (string to float) and utilizes multi-variable matching logic to route specific physics formulas based on input units.
+
+### 4. Century Milestone Tracker (`age_to_100.py`)
+* **Function:** Computes the exact years remaining until a user turns 100 and outputs a context-aware message based on their current life stage.
+* **Engineering Focus:** Implements defensive data type validation by attempting string-to-float conversions to systematically isolate and flag numerical entry errors in text fields.
+
+### 5. Academic Score Grader (`score_grader.py`)
+* **Function:** Accepts decimal scores between 0.0 and 1.0 to assign standardized academic letter grades (A through F).
+* **Engineering Focus:** Utilizes strict range validation ($0.0 \le \text{score} \le 1.0$) as a boundary constraint to catch and filter out logical data entry anomalies before processing.
+
+### 6. Product-or-Sum Threshold Evaluator (`product_or_sum.py`)
+* **Function:** Evaluates the product of two integers, dynamically defaulting to their sum if the product crosses a set threshold of 1000.
+* **Engineering Focus:** Establishes the baseline entry of this portfolio, verifying fundamental variable management, casting, and conditional binary branching mechanics.
+
+---
+
+## 🛠️ Core Technical Competencies Demonstrated
+
+* **Defensive Programming:** Active implementation of error handling (`try`/`except` blocks) to manage unpredictable data inputs safely without runtime failure.
+* **Data Sanitization:** Converting raw console inputs into structural numeric formats (`float`/`int`) to maintain mathematical calculation integrity.
+* **Deterministic Control Flow:** Constructing clean conditional routing pipelines designed to map onto physical calculations, algebraic equations, and engineering constraints.
